@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    #peykan-left1 {
+        border: 2px solid rgb(34 197 94);
+    }
+
+    #peykan-right1 {
+        border: 2px solid rgb(34 197 94);
+    }
+
+    .bg-light {
+        background-color: #F1F3F4;
+        color: black;
+    }
+
+    .bg-dark {
+        background-color: #111827;
+        color: white;
+    }
+
+    .gotoleftright {
+        z-index: -1;
+    }
+}
